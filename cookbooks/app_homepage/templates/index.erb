@@ -1,0 +1,23 @@
+<!doctype html>
+<head>
+	<title>
+		<%= @node[:page_title] %>
+	</title>
+  <style>
+    body { font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; font-size: 12px; line-height: 1.6em; }
+    h1 { font-size: 16px; font-weight: bold; color: #039; }
+  </style>
+</head>
+<body>
+	<h1> <%= @node[:page_title] %> </h1>
+	<p>
+	  Remote recipe says: <b><%= @node[:page_content] %></b>
+	</p>
+  <% if @node[:remote_recipe] %>
+    <div style="font-size: smaller; padding-top: 10px; padding-left: 5px; border: solid 1px #EFF5FA; background-color: #EEEEEE">
+      Using tags: <b><%= @node[:remote_recipe][:tags].join(", ") %></b>
+      From agent: <b><%= @node[:remote_recipe][:from] %></b>
+    </div>
+  <% end %>
+</body>
+
