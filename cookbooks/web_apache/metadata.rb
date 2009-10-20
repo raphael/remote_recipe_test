@@ -19,6 +19,5 @@ attribute "web_apache/contact",
 attribute "web_apache/mpm",
   :display_name => "Multi-Processing Module",
   :description => "setting for MPM, ",
-  :multiple_values => true,
-  :default => [ "worker", "prefork" ]
+  :default => "worker"
 

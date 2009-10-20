@@ -3,16 +3,13 @@
   "attributes": {
     "web_apache\/mpm": {
       "required": false,
-      "default": [
-        "worker",
-        "prefork"
-      ],
+      "default": "worker",
       "type": "string",
       "recipes": [
 
       ],
       "description": "setting for MPM, ",
-      "multiple_values": true,
+      "multiple_values": false,
       "display_name": "Multi-Processing Module"
     },
     "web_apache\/contact": {
