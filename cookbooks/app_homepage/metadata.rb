@@ -4,7 +4,9 @@ license          IO.read(File.expand_path(File.join(File.dirname(__FILE__), '..'
 description      "Update apache homepage."
 version          "0.0.1"
 
-recipe  "app_homepage::default", "Update apache homepage."
+recipe  "app_homepage", "Setup homepage."
+recipe  "app_homepage::update", "Update homepage."
+recipe  "app_homepage::send_update", "Send homepage update request."
 
 attribute "app_homepage",
   :type => "hash"

@@ -7,9 +7,9 @@
       "recipes": [
 
       ],
-      "description": "Content of homepage",
+      "description": "Tag exposed by servers that should run update recipe",
       "multiple_values": false,
-      "display_name": "Page content"
+      "display_name": "Update target tag"
     },
     "app_homepage\/update\/page_content": {
       "required": false,
@@ -85,10 +85,10 @@
 
   },
   "recipes": {
-    "app_homepage::send_update": "",
-    "app_homepage::default": "Update apache homepage.",
+    "app_homepage::send_update": "Send homepage update request.",
+    "app_homepage": "Setup homepage.",
     "app_homepage": "",
-    "app_homepage::update": ""
+    "app_homepage::update": "Update homepage."
   },
   "providing": {
     "app_homepage::send_update": [
