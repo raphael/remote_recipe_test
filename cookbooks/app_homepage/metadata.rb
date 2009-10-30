@@ -37,8 +37,8 @@ attribute "app_homepage/page_content",
 # update attributes
 #
 attribute "app_homepage/update/target",
-  :display_name => "Page content",
-  :description => "Content of homepage",
+  :display_name => "Update target tag",
+  :description => "Tag exposed by servers that should run update recipe",
   :type => "string"
 
 attribute "app_homepage/update/page_title",
