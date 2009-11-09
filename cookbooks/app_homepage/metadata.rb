@@ -7,6 +7,7 @@ version          "0.0.1"
 recipe  "app_homepage", "Setup homepage."
 recipe  "app_homepage::update", "Update homepage."
 recipe  "app_homepage::send_update", "Send homepage update request."
+recipe  "app_homepage::tag", "Set tag on server."
 
 attribute "app_homepage",
   :type => "hash"
@@ -52,3 +53,14 @@ attribute "app_homepage/update/page_content",
     :display_name => "Update page content",
     :description => "Page content to be set by update",
     :type => "string"
+
+#
+# tag attribute
+#
+attribute "app_homepage/tag",
+  :type => "hash"
+
+attribute "app_homepage/tag/value",
+  :display_name => "New tag value",
+  :description => "Create new tag with given value",
+  :type => "string"

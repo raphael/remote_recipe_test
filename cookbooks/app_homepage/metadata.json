@@ -59,6 +59,24 @@
       "multiple_values": false,
       "display_name": "Page title"
     },
+    "app_homepage\/tag\/value": {
+      "required": false,
+      "type": "string",
+      "recipes": [
+
+      ],
+      "description": "Create new tag with given value",
+      "multiple_values": false,
+      "display_name": "New tag value"
+    },
+    "app_homepage\/tag": {
+      "required": false,
+      "type": "hash",
+      "recipes": [
+
+      ],
+      "multiple_values": false
+    },
     "app_homepage": {
       "required": false,
       "type": "hash",
@@ -87,6 +105,7 @@
   "recipes": {
     "app_homepage::send_update": "Send homepage update request.",
     "app_homepage": "Setup homepage.",
+    "app_homepage::tag": "Set tag on server.",
     "app_homepage": "",
     "app_homepage::update": "Update homepage."
   },
@@ -95,6 +114,9 @@
 
     ],
     "app_homepage": [
+
+    ],
+    "app_homepage::tag": [
 
     ],
     "app_homepage::update": [
