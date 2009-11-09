@@ -18,7 +18,7 @@
     <div style="font-size: smaller; padding-top: 10px; padding-left: 5px; border: solid 1px #EFF5FA; background-color: #EEEEEE">
       Using tags: <b><%= @node[:remote_recipe][:tags].join(", ") %></b><br />
       From agent: <b><%= @node[:remote_recipe][:from] %></b><br />
-      From instance: <b><%= @node[:remote_recipe][:from_uid] %></b>
+      From instance: <b><%= @node[:remote_recipe][:from_uuid] %></b>
     </div>
   <% end %>
   <p>
