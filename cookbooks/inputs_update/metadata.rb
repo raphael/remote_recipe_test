@@ -9,8 +9,8 @@ recipe  "input_updates", "Update inputs."
 attribute "input_updates",
   :type => "hash"
 
-attribute "app_homepage/updated",
+attribute "input_updates/updated",
   :type => "string"
 
-attribute "app_homepage/updated_array",
+attribute "input_updates/updated_array",
   :type => "array"

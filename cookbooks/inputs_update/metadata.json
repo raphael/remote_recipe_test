@@ -19,7 +19,7 @@
       ],
       "multiple_values": false
     },
-    "app_homepage/updated": {
+    "input_updates/updated": {
       "required": false,
       "type": "string",
       "recipes": [
@@ -27,7 +27,7 @@
       ],
       "multiple_values": false
     },
-    "app_homepage/updated_array": {
+    "input_updates/updated_array": {
       "required": false,
       "type": "array",
       "recipes": [
