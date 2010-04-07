@@ -104,6 +104,7 @@
     "app_homepage::send_update": "Send homepage update request.",
     "app_homepage": "Setup homepage.",
     "app_homepage::tag": "Set tag on server.",
+    "app_homepage::tag_decom": "Add decommission tag to server.",
     "app_homepage": "",
     "app_homepage::update": "Update homepage."
   },
@@ -115,6 +116,9 @@
 
     ],
     "app_homepage::tag": [
+
+    ],
+    "app_homepage::tag_decom": [
 
     ],
     "app_homepage::update": [
