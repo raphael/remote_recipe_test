@@ -8,6 +8,7 @@ recipe  "app_homepage", "Setup homepage."
 recipe  "app_homepage::update", "Update homepage."
 recipe  "app_homepage::send_update", "Send homepage update request."
 recipe  "app_homepage::tag", "Set tag on server."
+recipe  "app_homepage::tag_decom", "Add decommission tag to server."
 
 attribute "app_homepage",
   :type => "hash"
